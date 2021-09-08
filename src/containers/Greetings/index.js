@@ -27,7 +27,7 @@ const Greetings = () => {
                 <Container style={{paddingBottom: '6rem'}}>
                     <Row className="align-items-center justify-content-between ">
                         <Col md={5} xs={12} >
-                            <h1 className="mt-4 text-light">Hi all, I'm Minh Hieu</h1>
+                            <h1 className="mt-4 text-light">Hi all, I'm Nguyen Minh Hieu</h1>
                             <p className="lead my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro tenetur sed blanditiis voluptatibus natus recusandae sint debitis voluptatem consequuntur quidem!</p>
                             <SocialLink />
                             <Button href="https://drive.google.com/file/d/1TJoTZOhxd2INm7nCZJLr1LnqkJu_eiP7/view?usp=sharing" className="btn-cv mt-4" icon={<i class="far fa-file"></i>} size="large" shape="round">
