@@ -1,0 +1,27 @@
+:root {
+    --text-primary: #fff
+}
+
+.navigation {
+    .logo {
+        font-family: 'WindSong', cursive;
+        font-size: 2rem!important;
+    }
+    a {
+        color: var(--text-primary)!important;
+        display: flex;
+        align-items: center;
+        i {
+            font-size: 1.8rem;
+            width: 30px;
+        }
+        .social_text {
+            display: none;
+            font-size: 1.3rem;
+            margin-left: 10px;
+            @media only screen and (max-width: 766px) {
+                display: inline;
+            }
+        }
+    }
+}

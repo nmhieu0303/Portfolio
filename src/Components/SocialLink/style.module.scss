@@ -1,0 +1,14 @@
+.social_link {
+    a {
+        &:first-child {
+            margin-left: 0!important;
+        }
+        &:hover {
+            transform: translateY(-10%);
+            transition: all ease-in-out 0.3s;
+        }
+        i {
+            font-size: 1.1rem
+        }
+    }
+}
