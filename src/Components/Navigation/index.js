@@ -15,7 +15,7 @@ const Navigation = () => {
         <div className={styles.navigation}>
             <Navbar color="translate" light expand="md">
                 <div className="container">
-                    <NavbarBrand href="/" className={styles.logo}>Minh Hiếu</NavbarBrand>
+                    <NavbarBrand href="#" className={styles.logo}>Minh Hiếu</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar className="justify-content-end">
                         <Nav navbar>
