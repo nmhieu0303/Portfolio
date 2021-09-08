@@ -6,13 +6,18 @@
 
 export const greetings = {
 	name: "Nguyen Minh Hieu",
-	title: "Hi all, I'm Minh Hieu",
+	title: "Hi all, I'm Nguyen Minh Hieu",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "",
+		"A passionate Front-End Web Developer having an experience of building Web applications with JavaScript / Reactjs and some other  UI libraries.",
+	linkCv: "https://drive.google.com/file/d/1TJoTZOhxd2INm7nCZJLr1LnqkJu_eiP7/view?usp=sharing",
 };
 
-export const contact = {};
+export const contact = {
+	title:"Reach out to me!",
+	subTitle:"I'm Front-End Web Developer",
+	phone:"0845606616",
+	mail: "nmhieu03032000@gmail.com"
+};
 
 export const socialData = [
 	{
@@ -106,33 +111,11 @@ export const skillsSection = {
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "University of Science",
+		major: "Infomation Technology",
+		duration: "Aug 2018 - Sep 2021",
+		gpa:7.5,
+		desc: "I have spent three years improving my skills in coding.",
 	},
 ];
 
@@ -178,18 +161,5 @@ export const projects = [
 		technologies:[ "Reactjs", "Redux"],
 		github: "https://github.com/nmhieu0303/ToDoListReactJS",
 		demo:"https://to-do-list-2021.herokuapp.com/"
-	},
-];
-
-export const feedbacks = [
-	{
-		name: "Hassan Mehmood",
-		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
-	},
-	{
-		name: "Maheen Altaf",
-		feedback:
-			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
 	},
 ];
