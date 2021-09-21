@@ -161,5 +161,13 @@ export const projects = [
 		technologies:[ "Reactjs", "Redux"],
 		github: "https://github.com/nmhieu0303/ToDoListReactJS",
 		demo:"https://to-do-list-2021.herokuapp.com/"
+	},{
+		name: "Task manager",
+		desc: "This is a mini project I created while learning Redux-Saga. It allows us to  manage projects and tasks just like Jira.",
+		technologies:[ "Reactjs", "Redux-Saga"],
+		github: "https://github.com/nmhieu0303/ToDoListReactJS",
+		demo:"http://jira-clone-2021.surge.sh/"
 	},
+
+	
 ];
