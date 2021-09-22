@@ -157,15 +157,15 @@ export const projects = [
 	},
 	{
 		name: "To do list",
-		desc: "This is a mini project during my learning redux and saga",
+		desc: "To do list is a mini project during my learning redux and saga",
 		technologies:[ "Reactjs", "Redux"],
 		github: "https://github.com/nmhieu0303/ToDoListReactJS",
-		demo:"https://to-do-list-2021.herokuapp.com/"
+		demo:"http://todolist-redux-learning.surge.sh/"
 	},{
 		name: "Task manager",
 		desc: "This is a mini project I created while learning Redux-Saga. It allows us to  manage projects and tasks just like Jira.",
 		technologies:[ "Reactjs", "Redux-Saga"],
-		github: "https://github.com/nmhieu0303/ToDoListReactJS",
+		github: "https://github.com/nmhieu0303/Jira-Clone.git",
 		demo:"http://jira-clone-2021.surge.sh/"
 	},
 
