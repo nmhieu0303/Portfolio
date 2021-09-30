@@ -13,6 +13,7 @@ const Skills = () => {
                 <div>
                     <h1 className="display-2" >{skillsSection.title}</h1>
                     <p className={styles.lead}>{skillsSection.subTitle.toUpperCase()}</p>
+                    <p className={styles.lead}>{skillsSection.subTitleSoftSkills.toUpperCase()}</p>
                 </div>
                 <Row className="justify-content-around align-items-center ">
                     <Col md={5} xs={12}>
@@ -31,7 +32,6 @@ const Skills = () => {
 
                     </Col>
                 </Row>
-                <p className={styles.lead}>{skillsSection.subTitleSoftSkills.toUpperCase()}</p>
             </Container>
         </Fade>
     );

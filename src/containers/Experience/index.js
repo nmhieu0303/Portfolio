@@ -12,10 +12,10 @@ const Experience = () => {
                 <TitleSession title="Experience"
                     icon={<span class="iconify" data-icon="bx:bx-briefcase" style={{ color: ' #11cdef' }}></span>}
                 />
-                <Row className="justify-content-center align-content-strech my-3">
+                <Row className="justify-content-center align-items-strech my-3">
                     {experience.map((item, index) => {
                         return <Col md={4} xs={12} className="my-3" key={index}>
-                            <Fade right duration={1000} distance="40px">
+                            <Fade right duration={1000} distance="40px" style={{height:'100%'}}>
                                 <Card className={styles.card}>
                                     <CardHeader tag="h5" className={styles.companyName} style={{ background: item.color }}>
                                         {item.company}
