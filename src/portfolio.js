@@ -13,9 +13,9 @@ export const greetings = {
 };
 
 export const contact = {
-	title:"Reach out to me!",
-	subTitle:"I'm Front-End Web Developer",
-	phone:"0845606616",
+	title: "Reach out to me!",
+	subTitle: "I'm Front-End Web Developer",
+	phone: "0845606616",
 	mail: "nmhieu03032000@gmail.com"
 };
 
@@ -114,7 +114,7 @@ export const educationInfo = [
 		schoolName: "University of Science",
 		major: "Infomation Technology",
 		duration: "Aug 2018 - Sep 2021",
-		gpa:7.5,
+		gpa: 7.5,
 		desc: "I have spent three years improving my skills in coding.",
 	},
 ];
@@ -142,32 +142,43 @@ export const experience = [
 ];
 
 export const projects = [
+
+
 	{
-		name: "GunoStore",
-		desc: " This is a website that sells shoes, it helps people to shop online",
-		technologies:[ "PHP", "JS", "MySQL" ],
-		github: "https://github.com/nmhieu0303/GunoStore",
+		name: "Connect chat",
+		desc: "App chat using firebase-auth and firebase-firestore",
+		technologies: ["Reactjs", "Context API",'Firebase'],
+		github: "https://github.com/nmhieu0303/cochat.git",
+		demo: "https://connectroom.herokuapp.com/"
 	},
 	{
-		name: "Cinejun",
-		desc: " This is a movie ticket booking website, helping users to book tickets and admins to manage cinemas",
-		technologies:[ "Reactjs", "Nodejs", "PostgreSQL"],
-		github: "https://github.com/nguyenduchoa0130/cinema-manager",
-		demo:"https://cinemajun.herokuapp.com/"
+		name: "Task manager",
+		desc: "This is a mini project I created while learning Redux-Saga. It allows us to  manage projects and tasks just like Jira.",
+		technologies: ["Reactjs", "Redux-Saga"],
+		github: "https://github.com/nmhieu0303/Jira-Clone.git",
+		demo: "http://jira-clone-2021.surge.sh/"
 	},
 	{
 		name: "To do list",
 		desc: "To do list is a mini project during my learning redux and saga",
-		technologies:[ "Reactjs", "Redux"],
+		technologies: ["Reactjs", "Redux"],
 		github: "https://github.com/nmhieu0303/ToDoListReactJS",
-		demo:"http://todolist-redux-learning.surge.sh/"
-	},{
-		name: "Task manager",
-		desc: "This is a mini project I created while learning Redux-Saga. It allows us to  manage projects and tasks just like Jira.",
-		technologies:[ "Reactjs", "Redux-Saga"],
-		github: "https://github.com/nmhieu0303/Jira-Clone.git",
-		demo:"http://jira-clone-2021.surge.sh/"
+		demo: "http://todolist-redux-learning.surge.sh/"
+	},
+	{
+		name: "Cinejun",
+		desc: " This is a movie ticket booking website, helping users to book tickets and admins to manage cinemas",
+		technologies: ["Reactjs", "Nodejs", "PostgreSQL"],
+		github: "https://github.com/nguyenduchoa0130/cinema-manager",
+		demo: "https://cinemajun.herokuapp.com/"
+	},
+	{
+		name: "GunoStore",
+		desc: " This is a website that sells shoes, it helps people to shop online",
+		technologies: ["PHP", "JS", "MySQL"],
+		github: "https://github.com/nmhieu0303/GunoStore",
 	},
 
-	
+
+
 ];
